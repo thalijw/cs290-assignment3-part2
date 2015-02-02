@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = 'UTF-8'>
+		<title>Assignment#3</title>
+		<script src = 'file1.js'></script>
+	</head>
+	<body>
+			<H3>Get Gists</H3>
+			<p>How many pages do you want to display? (1-5)</p>
+			<input type = 'text' name = 'pagesInput' size = '5'>
+			<input type = 'button' name = 'SaveInput' onclick = 'SaveInput()' value = 'Save Pages'>
+			<form>
+
+				<p>Select which language you want to dispaly:
+				<br />
+				<input id = 'Python' type="checkbox" name="Language" value="Python" /> Python
+				<br />
+				<input id = 'JSON' type="checkbox"  name="Language" value="JSON" /> JSON
+				<br />
+				<input id = 'JavaScript' type="checkbox"  name="Language" value="JavaScript" /> 
+				JavaScript <br />
+				<input id = 'SQL' type="checkbox"  name="Language" value="SQL" /> 
+				SQL<br />
+				<input type = 'button' name = 'page' onclick = 'GetLanguage()' value = 'Save Language'>
+				</p>
+			</form>
+			<input type = 'button' name = 'page' onclick = 'GetWebPages()' value = 'Search'>
+			<div id = "result" >Results</div>
+			<div id = "favorites" >Favorite</div>
+
+
+
+	</body>
+</html>
